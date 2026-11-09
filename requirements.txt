@@ -1,0 +1,9 @@
+# El servidor NO necesita instalar nada: usa solo lo que ya trae Python 3.10+
+# (asyncio, sqlite3, hashlib, struct, zlib...).
+#
+# Este archivo existe solo para las HERRAMIENTAS opcionales.
+# Instalalas con:   pip install -r requirements.txt
+
+# Para el importador de música (leer/escribir etiquetas y convertir audio).
+# Si no vas a importar canciones nuevas, no hace falta.
+mutagen>=1.47

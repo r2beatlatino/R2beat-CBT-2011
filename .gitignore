@@ -1,0 +1,68 @@
+# ============================================================================
+#  Qué NO se sube a GitHub.
+#
+#  Hay dos motivos para que un archivo esté en esta lista:
+#    1. Es PRIVADO  (cuentas de jugadores, contraseñas, logs).
+#    2. NO ES NUESTRO (archivos que salen del juego original de Softnyx).
+#
+#  Si dudás de un archivo, no lo subas. Es más fácil agregarlo después que
+#  borrarlo del historial de Git una vez que se publicó.
+# ============================================================================
+
+# --- 1. PRIVADO: nunca, jamás, por ningún motivo -----------------------------
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.env
+.env
+secrets/
+*.key
+*.pem
+config.local.json
+
+# Rutas personales de cada uno. En el repo va config-ejemplo.json.
+herramientas/importador/config.json
+jugar.json
+
+# Estado en vivo del servidor: puede listar jugadores conectados.
+datos/estado.json
+
+# --- 2. NO ES NUESTRO: archivos del juego original ---------------------------
+# Los .pak/.xfs son los paquetes de contenido de Softnyx/VALOFE.
+*.pak
+*.xfs
+*.dat
+*.exe
+*.dll
+*.asi
+
+# Datos que se extraen del cliente que cada quien ya tiene instalado.
+# El repo trae las herramientas para generarlos, no los archivos.
+datos/notas/*.bin
+datos/shop_lt.txt
+datos/face.txt
+datos/wing.txt
+datos/canciones.txt
+datos/escenarios.txt
+
+# --- 3. Basura de trabajo ----------------------------------------------------
+__pycache__/
+*.py[cod]
+*.log
+*.jsonl
+*.bak
+*.bak-*
+*.tmp
+_tmp*/
+output*/
+packets/
+paquetes/
+logs/
+grabaciones/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+{
+  "_leeme": "Copiá este archivo como config.json y poné TUS rutas. config.json no se sube a GitHub (cada uno tiene las suyas). Podés editarlo a mano o dejar que la ventana del importador lo escriba sola.",
+
+  "input": "C:\\musica-nueva",
+  "client": "C:\\Juegos\\R2Beat",
+  "r2pak": "C:\\herramientas\\r2pak.exe",
+  "output": "salida",
+  "audio_extra": ""
+}

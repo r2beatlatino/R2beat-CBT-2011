@@ -3,7 +3,7 @@
 
   "input": "C:\\musica-nueva",
   "client": "C:\\Juegos\\R2Beat",
-  "r2pak": "C:\\herramientas\\r2pak.exe",
+  "r2pak": "herramientas\\r2pak\\r2pak.exe",
   "output": "salida",
   "audio_extra": ""
 }

@@ -20,7 +20,7 @@ Necesitás tres cosas:
 
 1. **Python 3.10 o más nuevo.**
 2. **`r2pak.exe`** — la herramienta que abre y cierra los archivos `.pak` del juego.
-   No viene con este repositorio (no es nuestra); se consigue con el SDK de R2PAK.
+   Ya viene en `herramientas/r2pak/r2pak.exe` (es de terceros, no nuestra).
 3. **Una copia del cliente de R2Beat instalada**, la que vas a modificar.
 
 Después copiá `config-ejemplo.json` a `config.json` y poné tus rutas:
@@ -29,7 +29,7 @@ Después copiá `config-ejemplo.json` a `config.json` y poné tus rutas:
 {
   "input":  "C:\\musica-nueva",
   "client": "C:\\Juegos\\R2Beat",
-  "r2pak":  "C:\\herramientas\\r2pak.exe",
+  "r2pak":  "herramientas\\r2pak\\r2pak.exe",
   "output": "salida"
 }
 ```

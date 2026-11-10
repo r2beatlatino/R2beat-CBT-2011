@@ -37,6 +37,10 @@ datos/estado.json
 *.dll
 *.asi
 
+# Excepción: r2pak.exe es una herramienta de terceros que el servidor necesita
+# para leer los .pak. No es del juego ni nuestra; ver herramientas/r2pak/LEEME.md.
+!herramientas/r2pak/r2pak.exe
+
 # Datos que se extraen del cliente que cada quien ya tiene instalado.
 # El repo trae las herramientas para generarlos, no los archivos.
 datos/notas/*.bin

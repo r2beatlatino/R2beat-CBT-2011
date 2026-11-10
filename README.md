@@ -27,7 +27,7 @@ puede dejar de estar disponible.
 ## Resumen rápido
 
 ```bash
-python herramientas/extraer_datos.py "C:\ruta\al\juego" "C:\ruta\a\r2pak.exe"
+python herramientas/extraer_datos.py "C:\ruta\al\juego" "herramientas\r2pak\r2pak.exe"
 python herramientas/parchar_cliente.py "C:\ruta\al\juego" 192.168.1.50
 python correr_servidor.py
 python jugar.py

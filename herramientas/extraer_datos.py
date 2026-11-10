@@ -17,7 +17,7 @@
 
   COMO SE USA
   -----------
-      python herramientas/extraer_datos.py  C:\\ruta\\al\\cliente  C:\\ruta\\a\\r2pak.exe
+      python herramientas/extraer_datos.py  C:\\ruta\\al\\cliente  herramientas\\r2pak\\r2pak.exe
 
   Al terminar vas a tener, en la carpeta datos/:
 
@@ -30,8 +30,8 @@
   aparte, a partir de los charts del cliente, con el importador de musica:
   mirá herramientas/importador/LEEME.md.
 
-  QUE NECESITAS: r2pak.exe, la herramienta que abre los .pak del juego. No viene
-  con este repositorio porque no es nuestra.
+  QUE NECESITAS: r2pak.exe, la herramienta que abre los .pak del juego. Ya viene
+  incluida en herramientas/r2pak/r2pak.exe (es de terceros, no nuestra).
 =============================================================================
 """
 import os

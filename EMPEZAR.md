@@ -22,8 +22,9 @@ tenés, el instalador del CBT 2011-03-21 está preservado en Internet Archive:
 > vas a tener que reinstalar. Es la casilla de abajo de todo, fácil de pasar por alto.
 
 **3. `r2pak.exe`.** Es una herramienta chica que abre los archivos `.pak` del
-juego, donde está guardado todo (la tienda, las canciones, la ropa). Tampoco es
-nuestra, así que no viene incluida. Se consigue buscando "R2PAK SDK".
+juego, donde está guardado todo (la tienda, las canciones, la ropa). **Ya viene
+incluida** en `herramientas/r2pak/r2pak.exe`. No es nuestra: es de terceros, y
+los detalles están en [herramientas/r2pak/LEEME.md](herramientas/r2pak/LEEME.md).
 
 ---
 
@@ -54,12 +55,12 @@ son las canciones. Todo eso está adentro del juego que ya tenés. Este comando 
 saca de ahí:
 
 ```bash
-python herramientas/extraer_datos.py "C:\Juegos\R2Beat" "C:\herramientas\r2pak.exe"
+python herramientas/extraer_datos.py "C:\Juegos\R2Beat" "herramientas\r2pak\r2pak.exe"
 ```
 
-Cambiá las dos rutas por las tuyas: primero la carpeta donde está `R2Beat.exe`,
-después dónde guardaste `r2pak.exe`. **Las comillas hacen falta** si las rutas
-tienen espacios.
+Cambiá sólo la primera ruta por la tuya: la carpeta donde está `R2Beat.exe`.
+La segunda es la herramienta que ya viene en este repositorio. **Las comillas
+hacen falta** si la ruta del juego tiene espacios.
 
 Si salió bien vas a ver algo así:
 
